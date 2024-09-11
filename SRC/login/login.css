@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #10c484, #30b4a4);
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff; /* Cor de fundo da div de login */
+    border: 1px solid #ddd; /* Borda opcional */
+    border-radius: 14px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    padding: 60px;
+    height: 400px;
+    width: 400px; /* Largura fixa para a div de login */
+    text-align: center;
+}
+
+#inputID{
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 9px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px, black, solid;
+}
+
+#inputSenha{
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 9px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px, black, solid;
+}
+
+#btn{
+    padding: 10px;
+    width: 100px;
+    border-radius: 6px;
+    border: 1px, black, solid;
+    color: #10c484;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 14px;
+}
+
+a {
+    color: #10c484;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout com Navegação Lateral</title>
+    <link rel="stylesheet" href="materiais.css">
+    <script src="./materiais.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-item">ESTOQUE</div>
+        <div class="header-item">NOME DA EMPRESA</div>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+            <button id="btn-estoque">Estoque</button>
+            <button style="background-color: #10c484;">Materiais</button>
+            <button id="btn-relatorios">Relatórios</button>
+            <button>Estoque</button>
+            <button>Estoque</button>
+        </nav>
+        <main class="content">
+            <div class="green-background">
+                <input type="text" placeholder="Digite algo...">
+                <button>Filtrar</button>
+                <button id="btn-novo">NOVO +</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

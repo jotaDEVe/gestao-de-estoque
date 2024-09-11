@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <script src="./cadastro.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #f0f0f0; /* Cor de fundo opcional */
+        }
+
+        .form-container {
+            background: #ffffff; /* Cor de fundo da div */
+            border: 1px solid #ddd; /* Borda opcional */
+            border-radius: 8px; /* Cantos arredondados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+            padding: 20px;
+            width: 700px; /* Largura da div */
+            box-sizing: border-box;
+        }
+
+        .form-container h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-container label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        label{
+            color: #34aaa2;
+        }
+
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #34aaa2; /* Cor de fundo do botão */
+            color: #ffffff; /* Cor do texto do botão */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .form-container button:hover {
+            background-color: #14986a; /* Cor de fundo do botão ao passar o mouse */
+        }
+
+        #logo {
+            width: 400px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <img id="logo" src="/SRC/imgs/cadastro-logo.png" alt="">
+        <form>
+            <label for="cnpj">CNPJ:</label>
+            <input type="text" id="cnpj" name="cnpj" placeholder="Digite o CNPJ" required>
+
+            <label for="razao-social">Razão Social:</label>
+            <input type="text" id="razao-social" name="razao-social" placeholder="Digite a Razão Social" required>
+
+            <label for="email">Email Corporativo:</label>
+            <input type="email" id="email" name="email" placeholder="Digite o Email Corporativo" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite o Telefone" required>
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" placeholder="Digite o CEP" required>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" placeholder="Digite o Endereço" required>
+
+            <label for="numero">Número:</label>
+            <input type="text" id="numero" name="numero" placeholder="Digite o Número" required>
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" placeholder="Digite o Estado" required>
+
+            <button id="cadastro">Cadastrar</button>
+        </form>
+        
+    </div>
+</body>
+</html>
